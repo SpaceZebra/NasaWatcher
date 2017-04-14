@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="button_background">@color/colorAccent</color>
+    <color name="button_text">@android:color/white</color>
+
+    <color name="button_background_pressed">@color/peter_river_darker</color>
+    <color name="button_background_disabled">@color/peter_river_transparent</color>
+    <color name="button_background_enabled">@color/peter_river</color>
+
+</resources>
