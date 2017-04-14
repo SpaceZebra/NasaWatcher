@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    // SIZE
+    <dimen name="button_min_width">88dp</dimen>
+
+    // PADDING
+    <dimen name="button_padding">16dp</dimen>
+
+    // RADIUS
+    <dimen name="button_radius">2dp</dimen>
+
+    // TEXT
+    <dimen name="button_font_size">@dimen/font_normal</dimen>
+
+</resources>

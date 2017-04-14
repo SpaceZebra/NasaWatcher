@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DefaultButton">
+        <item name="android:textSize">@dimen/button_font_size</item>
+        <item name="android:radius">@dimen/button_radius</item>
+        <item name="android:padding">@dimen/button_padding</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minWidth">@dimen/button_min_width</item>
+        <item name="android:textColor">@color/button_text</item>
+    </style>
+
+</resources>
