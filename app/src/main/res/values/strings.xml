@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">NasaWatcher</string>
+
+    // ON BOARDING
+    <string name="on_boarding_nasa_title">The Nasa Open Data API!</string>
+    <string name="on_boarding_nasa_speech">The Nasa gives us access to some of its data via an Open Data API!</string>
+    <string name="on_boarding_potd_title">Picture of the day</string>
+    <string name="on_boarding_potd_speech">Each day, get a picture or a video of our beautiful universe.</string>
+    <string name="on_boarding_asteroid_title">Follow the asteroids</string>
+    <string name="on_boarding_asteroid_speech">Consult the asteroids in our solar system, and say \"Hi\" when they pass by.</string>
+    <string name="on_boarding_next_label">Get started</string>
 </resources>

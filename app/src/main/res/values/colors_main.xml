@@ -13,4 +13,10 @@
     <color name="peter_river_darker">#216593</color>
     <color name="peter_river_transparent">#bb2980b9</color>
 
+    <color name="white_50">#79ffffff</color>
+
+    // PAGE INDICATOR VIEW
+    <color name="page_indicator_selected">@android:color/white</color>
+    <color name="page_indicator_unselected">@color/white_50</color>
+
 </resources>
