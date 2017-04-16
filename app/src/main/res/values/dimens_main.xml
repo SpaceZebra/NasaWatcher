@@ -14,4 +14,9 @@
     <dimen name="spacing_large">16dp</dimen>
     <dimen name="spacing_very_large">32dp</dimen>
 
+    // ON BOARDING
+    <dimen name="on_boarding_img_max_width">200dp</dimen>
+    <dimen name="on_boarding_title_font_size">@dimen/font_big</dimen>
+    <dimen name="on_boarding_description_font_size">@dimen/font_large</dimen>
+
 </resources>

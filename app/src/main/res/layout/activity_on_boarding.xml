@@ -5,15 +5,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.fabienraye.nasawatcher.OnBoardingActivity">
+    android:background="@color/colorPrimary"
+    tools:context="com.fabienraye.nasawatcher.features.onboarding.activity.OnBoardingActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/get_started_button"
+        style="@style/DefaultButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/on_boarding_next_label"
+        app:layout_constraintBottom_toTopOf="@+id/page_indicator_view"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <com.rd.PageIndicatorView
+        android:id="@+id/page_indicator_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:piv_animationType="worm"
+        app:piv_interactiveAnimation="true"
+        app:piv_selectedColor="@color/page_indicator_selected"
+        app:piv_unselectedColor="@color/page_indicator_unselected"
+        app:piv_viewPager="@+id/view_pager"/>
 
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/get_started_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:mockup="@layout/fragment_on_boarding_item"
+        app:layout_constraintHorizontal_bias="0.0"/>
 </android.support.constraint.ConstraintLayout>
