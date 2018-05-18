@@ -1,4 +1,6 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion 27
@@ -63,5 +65,11 @@ dependencies {
     // SPRING ANIMATION
     implementation "com.android.support:support-dynamic-animation:27.1.1"
 
+    // KOTLIN
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
     testImplementation 'junit:junit:4.12'
+}
+repositories {
+    mavenCentral()
 }
